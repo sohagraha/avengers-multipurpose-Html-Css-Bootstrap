@@ -14,7 +14,7 @@
 
 <body>
     <header class="background">
-        <nav class="navbar navbar-expand-lg p-3 bg-dark text-white">
+        <nav class="navbar fixed-top navbar-expand-lg p-3 bg-dark text-white">
             <div class="container">
                 <div class="d-flex align-items-center">
                     <a class="" href="#">
@@ -30,28 +30,28 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-link fs-5 fw-normal">
-                            <a class="nav-link text-white" href="#scrollspyHeading1">Home</a>
+                            <a class="nav-link text-white" href="#scrollspyHome">Home</a>
                         </li>
                         <li class="nav-link fs-5 fw-normal">
-                            <a class="nav-link text-white" href="#scrollspyHeading1">Services</a>
+                            <a class="nav-link text-white" href="#scrollspyServices">Services</a>
                         </li>
                         <li class="nav-link fs-5 fw-normal">
-                            <a class="nav-link text-white" href="#scrollspyHeading1">About</a>
+                            <a class="nav-link text-white" href="#scrollspyAbout">About</a>
                         </li>
                         <li class="nav-link fs-5 fw-normal">
-                            <a class="nav-link text-white" href="#scrollspyHeading1">Potofolio</a>
+                            <a class="nav-link text-white" href="#scrollspyPotofolio">Potofolio</a>
                         </li>
                         <li class="nav-link fs-5 fw-normal">
-                            <a class="nav-link text-white" href="#scrollspyHeading1">Price</a>
+                            <a class="nav-link text-white" href="#scrollspyPrice">Price</a>
                         </li>
                         <li class="nav-link fs-5 fw-normal">
-                            <a class="nav-link text-white" href="#scrollspyHeading1">Contact</a>
+                            <a class="nav-link text-white" href="#scrollspyContact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section class="p-5 layer d-flex align-items-center justify-content-center">
+        <section id="scrollspyHome" class="p-5 layer d-flex align-items-center justify-content-center">
             <div>
                 <div class="d-flex flex-column align-items-center justify-content-center">
                     <h1 class="fs-1 text-center text-white">
@@ -81,7 +81,7 @@
                 </p>
             </div>
         </div>
-        <div class="services pb-5">
+        <div id="scrollspyServices" class="services pb-5">
             <div class="container">
                 <h1 class="text-center pb-4 pt-4">Services</h1>
                 <div>
@@ -146,48 +146,52 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-5">
-            <div class="text-center mb-4">
-                <h1>
-                    About <span>Avenger</span>
-                </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. laudantium culpa tenetur.</p>
-            </div>
-            <div class="card border-0 mb-1" style="max-width: 100%;">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="images/section-image-1.png" class="img-fluid rounded-start p-1" alt="...">
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="card-body">
-                            <p class="fs-5">
-                                Lorem ipsum dolor sit amet, cadipisicing sit amet, consectetur adipisicing elit. Atque
-                                sed, quidem quis praesentium, ut unde fuga error commodi architecto.
-                                <br>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing sit amet,
-                                consectetur adipisicing elit. Atque sed, quidem quis praesentium,m deserunt.
-                                <br>
-                            </p>
-                            <p class="ps-3">
-                                <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Lorem ipsum enimdolor sit
-                                amet<br>
-                                <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Explicabo deleniti neque
-                                aliquid
-                                <br>
-                                <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Lorem ipsum enimdolor sit
-                                amet<br>
-                                <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Explicabo deleniti neque
-                                aliquid
-                                <br>
-                                <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Explicabo deleniti neque
-                                aliquid
-                                <br>
-                            </p>
+        <section id="scrollspyAbout">
+            <div class="container mt-5">
+                <div class="text-center mb-4">
+                    <h1>
+                        About <span>Avenger</span>
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. laudantium culpa tenetur.</p>
+                </div>
+                <div class="card border-0 mb-1" style="max-width: 100%;">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="images/section-image-1.png" class="img-fluid rounded-start p-1" alt="...">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card-body">
+                                <p class="fs-5">
+                                    Lorem ipsum dolor sit amet, cadipisicing sit amet, consectetur adipisicing elit.
+                                    Atque
+                                    sed, quidem quis praesentium, ut unde fuga error commodi architecto.
+                                    <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing sit amet,
+                                    consectetur adipisicing elit. Atque sed, quidem quis praesentium,m deserunt.
+                                    <br>
+                                </p>
+                                <p class="ps-3">
+                                    <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Lorem ipsum enimdolor sit
+                                    amet<br>
+                                    <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Explicabo deleniti neque
+                                    aliquid
+                                    <br>
+                                    <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Lorem ipsum enimdolor sit
+                                    amet<br>
+                                    <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Explicabo deleniti neque
+                                    aliquid
+                                    <br>
+                                    <i class="me-1 text-danger fas fa-arrow-circle-right"></i>Explicabo deleniti neque
+                                    aliquid
+                                    <br>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
         <div>
             <div class="container">
                 <div class="card border-0 mb-1" style="max-width: 100%;">
@@ -283,7 +287,7 @@
         <div class="text-white bg-dark pb-5 pt-5 text-center">
             <h1 class="p-3">Amazing Free Bootstrap Template.</h1>
         </div>
-        <section>
+        <section id="scrollspyPotofolio">
             <div class="container pt-5 pb-4">
                 <div class="text-center port-center">
                     <h1>Portfolio</h1>
@@ -310,35 +314,304 @@
                 </div>
             </div>
         </section>
-        <section class="testimonial mt-3">
-            <h1 class="text-center text-white pt-5 pb-3">Clsients Testimonials</h1>
+        <section class="testimonial mt-3 pb-4">
+            <h1 class="text-center text-white pt-5 pb-2">Clsients Testimonials</h1>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active set-width">
-                        <p class="text-white"><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing elit.
-                            Quas natus atque voluptates quam velit necessitatibus saepe distinctio amet esse!
-                            Consequatur libero aliquam explicabo, tempora amet beatae accusantium quibusdam fugit
-                            temporibus.</p>
+                        <div class="card bg-dark mb-3" style="max-width: 100;">
+                            <div class="row g-0">
+                                <div class="col-md-2">
+                                    <img src="images/logo.png" class="img-fluid rounded-start d-flex align-items-center"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <p class="text-white"><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit
+                                            amet
+                                            consectetur
+                                            adipisicing elit.
+                                            Quas natus atque voluptates quam velit necessitatibus saepe distinctio amet
+                                            esse!
+                                            Consequatur libero aliquam explicabo, tempora amet beatae accusantium
+                                            quibusdam fugit
+                                            temporibus.</p>
+                                        <p class="card-text"><small class="text-white">Sohag Raha</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item set-width">
-                        <p class="text-white"><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing elit.
-                            Quas natus atque voluptates quam velit necessitatibus saepe distinctio amet esse!
-                            Consequatur libero aliquam explicabo, tempora amet beatae accusantium quibusdam fugit
-                            temporibus. <br> ................sr</p>
+                        <div class="card bg-dark mb-3" style="max-width: 100;">
+                            <div class="row g-0">
+                                <div class="col-md-2">
+                                    <img src="images/logo.png" class="img-fluid rounded-start d-flex align-items-center"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <p class="text-white"><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit
+                                            amet
+                                            consectetur
+                                            adipisicing elit.
+                                            Quas natus atque voluptates quam velit necessitatibus saepe distinctio amet
+                                            esse!
+                                            Consequatur libero aliquam explicabo, tempora amet beatae accusantium
+                                            quibusdam fugit
+                                            temporibus.</p>
+                                        <p class="card-text"><small class="text-white">Sohag Raha</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item set-width">
-                        <p class="text-white"><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing elit.
-                            Quas natus atque voluptates quam velit necessitatibus saepe distinctio amet esse!
-                            Consequatur libero aliquam explicabo, tempora amet beatae accusantium quibusdam fugit
-                            temporibus.</p>
+                        <div class="card bg-dark mb-3" style="max-width: 100;">
+                            <div class="row g-0">
+                                <div class="col-md-2">
+                                    <img src="images/logo.png" class="img-fluid rounded-start d-flex align-items-center"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <p class="text-white"><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit
+                                            amet
+                                            consectetur
+                                            adipisicing elit.
+                                            Quas natus atque voluptates quam velit necessitatibus saepe distinctio amet
+                                            esse!
+                                            Consequatur libero aliquam explicabo, tempora amet beatae accusantium
+                                            quibusdam fugit
+                                            temporibus.</p>
+                                        <p class="card-text"><small class="text-white">Sohag Raha</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section id="scrollspyPrice">
+            <div class="container">
+                <div class="heading d-flex justify-content-center align-items-center flex-column">
+                    <h1>Our Price</h1>
+                    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem est beatae
+                        blanditiis quae ea
+                        provident!</p>
+                </div>
+                <div class="pricing-card">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class=" h-100">
+                                <table class="table text-center table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="p-2">
+                                                <h2>Basic</h2>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">$999mo</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">5 Projects</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">5 GB of Storage</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Up to 100 Users</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">10 GB Bandwidth</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Security Suite</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><a href="#" class="btn btn-danger">SIGN UP NOW!</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class=" h-100  text-center">
+                                <table class="table table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="p-2">
+                                                <h2>Plus</h2>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">$1999mo.</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">10 Projects</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">10 GB of Storage</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Up to 250 Users</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">25 GB Bandwidth</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Security Suite</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><a href="#" class="btn btn-danger">SIGN UP NOW!</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="h-100">
+                                <table class="table text-center table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="bg-danger p-2">
+                                                <h2>Basic</h2>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">$999mo</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">5 Projects</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">5 GB of Storage</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Up to 100 Users</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">10 GB Bandwidth</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Security Suite</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><a href="#" class="btn btn-danger">SIGN UP NOW!</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="h-100">
+                                <div class="h-100">
+                                    <table class="table text-center table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="p-2">
+                                                    <h2>Basic</h2>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td scope="row">$999mo</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">5 Projects</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">5 GB of Storage</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">Up to 100 Users</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">10 GB Bandwidth</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">Security Suite</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row"><a href="#" class="btn btn-danger">SIGN UP NOW!</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="scrollspyContact" class=" bg-dark">
+            <div class="container  pt-3 pb-4 mt-3">
+                <h1 class="text-white text-center">Contact Us</h1>
+                <div class="card mb-5 border-0" style="max-width: 100%;">
+                    <div class="row g-0 bg-dark">
+                        <div class="col-md-6 ps-2 pe-2">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Enter Mail">
+                            </div>
+                            <div class="mb-2">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                                    rows="5"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-danger ps-5 pe-5">Send</button>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body pt-4">
+                                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam
+                                    magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Maecenas
+                                    ultrices finibus erat sit amet auctor. Curabitur et metus laoreet, fermentum quam
+                                    sagittis, cursus augue.</p>
+                                <div class="g-5">
+                                    <span class="text-white"><i class="fas fa-map-marker-alt"></i> 1508 Kembery
+                                        Drive,
+                                        Chicago,
+                                        IL 60605</span>
+                                    <br>
+                                    <span class="text-white"><i class="fas fa-phone"></i> 202-314-1583</span>
+                                    <br>
+                                    <span class="text-white"><i class="far fa-envelope"></i> support@biss.com</span>
+                                </div>
+                                <br>
+                                <div class="contacts d-flex">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-google-plus-g"></i>
+                                    <i class="fab fa-skype"></i>
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-danger p-5">
+            <div class="container text-center text-white">
+                <p>Copyright <i class="far fa-copyright"></i> 2015 Template by webthemez.com.</p>
             </div>
         </section>
     </main>

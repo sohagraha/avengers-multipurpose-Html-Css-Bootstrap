@@ -25,10 +25,25 @@
 }
 .testimonial{
     width: 100%;
-    height: 200px;
     background-color: black;
 }
 .set-width{
     padding-left: 25%;
     padding-right: 25%;
+}
+.testimonial img{
+    height: 100px;
+    width: 100px;
+}
+.heading p{
+    max-width: 70%;
+}
+.contacts .fab{
+    color: white;
+    border: 1px solid #fff;
+    padding: 17px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1%;
 }
